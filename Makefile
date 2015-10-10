@@ -1,4 +1,6 @@
 build:
+
+system:
+	sudo puppet apply --modulepath=./system system.pp
 	
-infrastructure:
-	sudo puppet apply --modulepath=./infrastructure infrastructure.pp
+.PHONY: system build
