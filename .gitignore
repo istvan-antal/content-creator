@@ -8,4 +8,5 @@
 /build/
 /vendor/
 /bin/
+!/bin/install-ubuntu.sh
 /composer.phar

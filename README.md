@@ -1,3 +1,14 @@
+Setup
+=====
+
+Ubuntu
+------
+
+```bash
+curl https://raw.githubusercontent.com/istvan-antal/content-creator/master/bin/install-ubuntu.sh | /bin/sh 
+```
+
+
 Symfony Standard Edition
 ========================
 

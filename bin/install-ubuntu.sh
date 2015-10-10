@@ -7,4 +7,4 @@ fi
 sudo apt-get install --assume-yes puppet git make
 git clone git@github.com:istvan-antal/content-creator.git
 cd content-creator
-make infrastructure
+make
