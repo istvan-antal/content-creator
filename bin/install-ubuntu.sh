@@ -6,6 +6,6 @@ if [ "${OS}" != 'Ubuntu' ]; then
 fi
 sudo apt-get install --assume-yes puppet git make
 ssh-keyscan github.com >> ~/.ssh/known_hosts
-git clone git@github.com:istvan-antal/content-creator.git
+git clone https://github.com/istvan-antal/content-creator.git
 cd content-creator
 make
